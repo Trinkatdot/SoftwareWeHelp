@@ -21,16 +21,17 @@ body {
     margin: 0;
     font-family: 'Roboto', 'sans-serif';
     /* Fundo com gradiente */
-    background-image: url(../img/img_fundo.jpg); /* padrão em SVG */
+    background-image: url(../img/img_fundo.jpg);
+    /* padrão em SVG */
     background-size: cover;
-  /* Mistura o gradiente com o padrão */
+    /* Mistura o gradiente com o padrão */
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    padding: 20px;       
+    align-items: center;
+    padding: 20px;
     width: 350px;
 }
 
@@ -72,20 +73,22 @@ h3 {
 
 
 
-input, select {
+input,
+select {
     width: 100%;
     margin-top: 15px;
     padding: 8px;
-    
-    background: linear-gradient(#5E8ABB, #98A9BC);
+    background: linear-gradient(0.25turn, #5E8ABB, #98A9BC);
     border: 1px;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 select {
-    color: rgb(209, 209, 209); /* Cor do texto selecionado */
-    background-color: #1c3d75; /* Fundo do select */
+    color: rgb(209, 209, 209);
+    /* Cor do texto selecionado */
+    background-color: #1c3d75;
+    /* Fundo do select */
 }
 
 input::placeholder {
@@ -127,11 +130,11 @@ a {
 
 a span {
     font-weight: bold;
-    
+
 }
 
 
-.container-btn { 
+.container-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
