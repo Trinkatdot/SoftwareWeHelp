@@ -13,6 +13,7 @@
     font-family: 'Mulish', 'sans-serif';
     font-style: normal;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -21,16 +22,17 @@ body {
     margin: 0;
     font-family: 'Roboto', 'sans-serif';
     /* Fundo com gradiente */
-    background-image: url(../img/img_fundo.jpg); /* padrão em SVG */
+    background-image: url(../img/img_fundo.jpg);
+    /* padrão em SVG */
     background-size: cover;
-  /* Mistura o gradiente com o padrão */
+    /* Mistura o gradiente com o padrão */
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    padding: 20px;       
+    align-items: center;
+    padding: 20px;
     width: 350px;
 }
 
@@ -47,7 +49,7 @@ body {
     height: 100%;
 }
 
-form input {    
+form input {
     width: 100%;
     margin-top: 15px;
     padding: 8px;
@@ -74,7 +76,7 @@ input::placeholder {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.btnEntrar {  
+.btnEntrar {
     flex: 1;
     width: 100%;
     padding: 10px;
@@ -95,19 +97,19 @@ button.btnEntrar:hover {
     background: #0056b3;
 }
 
-form img {
+form {
     display: flex;
-    margin: 20px 0 20px 160px;
+    flex-direction: column;
     align-items: center;
+    /* Centraliza horizontalmente */
     justify-content: center;
-    flex-direction: column; /* Mantém os itens empilhados verticalmente */
-    
+    /* Centraliza verticalmente */
 }
 
-.google-logo img {
-    width: 48px; /* ou o tamanho desejado */
+form img {
+    margin: 20px 0;
+    cursor: pointer;
 }
-
 
 a {
     display: inline;
@@ -125,13 +127,13 @@ a span {
 
 .container-options {
     display: flex;
-    flex-direction: column; /* Empilha os links verticalmente */
-    align-items: center; 
-    margin-top: 10px; 
+    flex-direction: column;
+    /* Empilha os links verticalmente */
+    align-items: center;
+    margin-top: 10px;
 }
 
 .container-options a {
-    margin-top: 5px; /* Espaço entre os links */
+    margin-top: 5px;
+    /* Espaço entre os links */
 }
-
-
