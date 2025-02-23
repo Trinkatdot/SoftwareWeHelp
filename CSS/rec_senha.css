@@ -1,0 +1,162 @@
+/* reset do css */
+@import url(/css/reset.css);
+/* importa icones */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css);
+/* importa fonte */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', 'sans-serif';
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+    /* Fundo com gradiente */
+    background-image: url(../img/img_fundo.jpg);
+    /* padrão em SVG */
+    background-size: cover;
+    /* Mistura o gradiente com o padrão */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 350px;
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.formulario {
+    width: 20vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.icon_help {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    background: #fff;
+    color: #007bff;
+    padding: 5px 15px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h3 {
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: normal;
+}
+
+
+
+input,
+select {
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px;
+    background: linear-gradient(0.25turn, #5E8ABB, #98A9BC);
+    border: 1px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+select {
+    color: rgb(209, 209, 209);
+    /* Cor do texto selecionado */
+    background-color: #1c3d75;
+    /* Fundo do select */
+}
+
+input::placeholder {
+    color: rgb(209, 209, 209);
+}
+
+.slt_container {
+    cursor: pointer;
+}
+
+button.btnregister {
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    margin-top: auto;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: normal;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: background 0.3s;
+}
+
+button.btnregister:hover {
+    background: #0056b3;
+}
+
+button.btnenviarcod {
+    flex: 1;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: normal;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: background 0.3s;
+}
+
+button.btnenviarcod:hover {
+    background: #0056b3;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+a span {
+    font-weight: bold;
+
+}
+
+.container-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
